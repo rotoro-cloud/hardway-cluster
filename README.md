@@ -23,7 +23,7 @@ Uses Vagrant and Ubuntu.
 
 ### Я разбил процесс на отдельные главы, которые отвечают за определенные функции:
 
-- [Подготовка VMs](https://github.com/rotoro-cloud/hardway-cluster/steps/01.md)
+- [Подготовка VMs](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/01.md)
 - [Подготовка SSH и инструментов](https://github.com/rotoro-cloud/hardway-cluster/steps/02.md)
 - [Создание CA и сертификатов](https://github.com/rotoro-cloud/hardway-cluster/steps/03.md)
 - [Создание kubeconfigs для компонентов](https://github.com/rotoro-cloud/hardway-cluster/steps/04.md)
