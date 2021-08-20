@@ -94,6 +94,8 @@ Vagrant.configure("2") do |config|
         end
 
         node.vm.provision "setup-dns", type: "shell", :path => "ubuntu/update-dns.sh"
+        node.vm.provision "allow-bridge-nf-traffic", type: "shell", :path => "ubuntu/allow-bridge-nf-traffic.sh"
+        
 
       end
   end
@@ -116,6 +118,7 @@ Vagrant.configure("2") do |config|
         end
 
         node.vm.provision "setup-dns", type: "shell", :path => "ubuntu/update-dns.sh"
+        node.vm.provision "allow-bridge-nf-traffic", type: "shell", :path => "ubuntu/allow-bridge-nf-traffic.sh"
     end
   end
 end
