@@ -78,50 +78,6 @@ sudo mv crictl kubectl kube-proxy kubelet runc /usr/local/bin/
 sudo mv containerd/bin/* /bin/
 ```
 
-................................................
-### Настройка CNI
-
-Установим наш CIDR:
-
-```
-POD_CIDR=10.32.0.0/12
-```
-
-Create the `bridge` network configuration file:
-
-```
-cat <<EOF | sudo tee /etc/cni/net.d/10-bridge.conf
-{
-    "cniVersion": "0.4.0",
-    "name": "bridge",
-    "type": "bridge",
-    "bridge": "cnio0",
-    "isGateway": true,
-    "ipMasq": true,
-    "ipam": {
-        "type": "host-local",
-        "ranges": [
-          [{"subnet": "${POD_CIDR}"}]
-        ],
-        "routes": [{"dst": "0.0.0.0/0"}]
-    }
-}
-EOF
-```
-
-Create the `loopback` network configuration file:
-
-```
-cat <<EOF | sudo tee /etc/cni/net.d/99-loopback.conf
-{
-    "cniVersion": "0.4.0",
-    "name": "lo",
-    "type": "loopback"
-}
-EOF
-```
-.............................................
-
 ### Настройка containerd
 
 Создадим файл конфигурации `containerd`:
@@ -141,7 +97,6 @@ cat << EOF | sudo tee /etc/containerd/config.toml
       runtime_root = ""
 EOF
 ```
-
 
 Создадим unit-файл для службы systemd `containerd.service`:
 
