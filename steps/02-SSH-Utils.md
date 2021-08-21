@@ -25,7 +25,7 @@ cat >> ~/.ssh/authorized_keys <<EOF
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD......Tj5qkAVT7 vagrant@controlplane01
 EOF
 ```
-*Не забудь распространить этот ключ на все узлы, кроме `lb`
+*Не забудь распространить этот ключ на все узлы, кроме `lb`*
 
 ### Ставим `kubectl`
 #
