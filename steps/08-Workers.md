@@ -4,7 +4,6 @@
 
 На каждую из рабочих нод нам требуется установить компоненты:
 - [runc](https://github.com/opencontainers/runc)
-- [container networking plugins](https://github.com/containernetworking/cni)
 - [containerd](https://github.com/containerd/containerd)
 - [kubelet](https://kubernetes.io/docs/admin/kubelet)
 - [kube-proxy](https://kubernetes.io/docs/concepts/cluster-administration/proxies)
