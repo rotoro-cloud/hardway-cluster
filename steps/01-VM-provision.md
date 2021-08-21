@@ -2,7 +2,7 @@
 
 ### VM Hardware
 
-168 GB of RAM
+16 GB of RAM
 50 GB Disk space
 
 ### Virtual Box
