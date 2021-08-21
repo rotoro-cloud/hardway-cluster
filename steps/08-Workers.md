@@ -244,4 +244,4 @@ kubectl get nodes --kubeconfig admin.kubeconfig
 
 *Не переживай, если ноды в статусе `NotReady`, это потому, что у нас пока не работает внутренняя сеть в кластере*
 
-Следущий шаг: [Настройка kubectl](09.md)
+Следущий шаг: [Настройка kubectl](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/09-Kubectl-Access.md)
