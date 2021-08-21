@@ -11,7 +11,6 @@
 Создадим файл `kubeconfig` для аутентификации как `admin`:
 
 ```
-{
   KUBERNETES_LB_ADDRESS=192.168.66.30
 
   kubectl config set-cluster kubernetes-the-hard-way \
@@ -28,7 +27,6 @@
     --user=admin
 
   kubectl config use-context kubernetes-the-hard-way
-}
 ```
 
 Справка документации по [kubectl config](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/)
