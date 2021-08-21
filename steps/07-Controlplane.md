@@ -265,5 +265,5 @@ curl  https://192.168.66.30:6443/version -k
 }
 ```
 
-Следущий шаг: [Установка worker](08.md)
+Следущий шаг: [Установка worker](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/08-Workers.md)
 
