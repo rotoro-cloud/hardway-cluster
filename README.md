@@ -34,4 +34,4 @@ Uses Vagrant and Ubuntu.
 - [Настройка kubectl](https://raw.githubusercontent.com/rotoro-cloud/hardway-cluster/main/steps/09-Kubectl-Access.md)
 - [Настройка POD network](https://raw.githubusercontent.com/rotoro-cloud/hardway-cluster/main/steps/10-CNI-Plugin.md)
 - [Настройка DNS solution](https://raw.githubusercontent.com/rotoro-cloud/hardway-cluster/main/steps/11-CoreDNS.md)
-- [Тесты](https://raw.githubusercontent.com/rotoro-cloud/hardway-cluster/main/steps/12-Tests.md)
+- [Тесты](https://raw.githubusercontent.com/rotoro-cloud/hardway-cluster/blob/main/steps/12-Tests.md)
