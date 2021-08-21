@@ -42,18 +42,6 @@ for instance in controlplane01 controlplane02; do
 done
 ```
 
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Положим `encryption-config.yaml` в нужную директорию:
-
-```
-for instance in controlplane01 controlplane02; do
-  ssh ${instance} "sudo mkdir -p /var/lib/kubernetes; sudo mv encryption-config.yaml /var/lib/kubernetes/";
-done
-```
-
-
 Справка в [документации](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/#encrypting-your-data).
 
 Следущий шаг: [Установка etcd](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/06-ETCD.md)
