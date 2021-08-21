@@ -113,4 +113,4 @@ sudo systemctl restart haproxy
 - Ты можешь подключиться по SSH к будущим нодам
 - Все ноды и балансер пингуют друг друга
 
-Следущий шаг: [Подготовка SSH и инструментов](02.md)
+Следущий шаг: [Подготовка SSH и инструментов](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/02-SSH-Utils.md)
