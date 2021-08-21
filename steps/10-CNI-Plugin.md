@@ -37,4 +37,4 @@ weave-net-lwhkz   2/2     Running   1          49s
 
 Ссылки по использованию [weave-net-addon](https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/weave-network-policy/#install-the-weave-net-addon)
 
-Следущий шаг: [Настройка DNS solution](11.md)
+Следущий шаг: [Настройка DNS solution](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/11-CoreDNS.md)
