@@ -60,4 +60,4 @@ Address 1: 10.96.0.10 kube-dns.kube-system.svc.cluster.local
 Name:      kubernetes
 Address 1: 10.96.0.1 kubernetes.default.svc.cluster.local
 ```
-Следущий шаг: [Тесты](12.md)
+Следущий шаг: [Тесты](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/12-Tests.md)
