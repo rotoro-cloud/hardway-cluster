@@ -53,4 +53,4 @@ sudo mv kubectl /usr/local/bin/
 kubectl version --client
 ```
 
-Следущий шаг: [Создание CA и сертификатов](03.md)
+Следущий шаг: [Создание CA и сертификатов](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/03-CA-Certs.md)
