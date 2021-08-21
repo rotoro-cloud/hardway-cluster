@@ -109,4 +109,4 @@ e68096fcbeeca62f, started, controlplane01, https://192.168.66.11:2380, https://1
 
 Справка из [документации](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#starting-etcd-clusters)
 
-Следущий шаг: [Установка controlplane](07.md)
+Следущий шаг: [Установка controlplane](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/07-Controlplane.md)
