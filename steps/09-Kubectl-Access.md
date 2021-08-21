@@ -65,4 +65,4 @@ NAME       STATUS      ROLES    AGE     VERSION
 node01     NotReady    <none>   30s     v1.21.0
 ```
 
-Следущий шаг: [Настройка POD network](10.md)
+Следущий шаг: [Настройка POD network](https://github.com/rotoro-cloud/hardway-cluster/blob/main/steps/10-CNI-Plugin.md)
